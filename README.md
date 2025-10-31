@@ -1,75 +1,28 @@
-# Nuxt Minimal Starter
+## Experiment Vue/Nuxt
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Dit project is een experiment met **Vue 3** en **Nuxt 3** en haalt data op uit een **Directus API**.  
+Het doel is om een moderne frontend te bouwen die content dynamisch kan weergeven en te onderzoeken hoe de **user**, **developer** en **content management experience** (UX, DX & CMX) is binnen deze techstack.
 
-## Setup
+### User Experience
+- UX van deze stack is over het algemeen goed op zowel desktop als mobiele apparaten  
+- Toegankelijkheid voldoet grotendeels aan de WCAG richtlijnen  
+- Pagina’s laden snel dankzij server side rendering en caching in Nuxt  
+- Kleine verbeteringen mogelijk voor oudere apparaten of trage netwerken  
 
-Make sure to install dependencies:
+Uitgewerkt in [Gist](https://gist.github.com/ambersr/8e84b2bee7c0d7eb88c3f8d03a3f2a90)
 
-```bash
-# npm
-npm install
+### Developer Experience
+- Eenvoudige setup via `npx nuxi init` en snelle lokale ontwikkelomgeving  
+- Documentatie van Vue, Nuxt en Directus is uitgebreid en goed onderhouden  
+- Componenten zijn makkelijk te hergebruiken  
+- Zonder TypeScript iets minder typeveiligheid, maar nog steeds overzichtelijk  
 
-# pnpm
-pnpm install
+Uitgewerkt in [Gist](https://gist.github.com/ambersr/6df731666f8af9e591f45b2571efcec1)
 
-# yarn
-yarn install
+### Content Management Experience
+- Content wordt beheerd via Directus, met een overzichtelijke UI
+- Beheerders kunnen eenvoudig velden en content beheren zonder kennis van Vue/Nuxt  
+- CMS is gemakkelijk te gebruiken en maakt contentbeheer onafhankelijk van developers  
 
-# bun
-bun install
-```
+Uitgewerkt in [Gist](https://gist.github.com/ambersr/63cefe45dd05a1468ce652b3402c1d7b)
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
