@@ -3,6 +3,9 @@ import { useHead } from '#app'
 
 useHead({
   title: 'Document | Experiment Vue/Nuxt',
+  htmlAttrs: {
+    lang: 'nl' // hier kun je 'en' of een andere taal zetten
+  },
 });
 
 // Haal de slug uit de route

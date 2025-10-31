@@ -5,6 +5,9 @@ import { useHead } from '#app'
 
 useHead({
   title: 'Home | Experiment Vue/Nuxt',
+  htmlAttrs: {
+    lang: 'nl' // hier kun je 'en' of een andere taal zetten
+  },
 });
 
 // API URL

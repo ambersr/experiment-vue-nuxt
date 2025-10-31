@@ -3,6 +3,9 @@ import { useHead } from '#app'
 
 useHead({
   title: 'About | Experiment Vue/Nuxt',
+  htmlAttrs: {
+    lang: 'nl' // hier kun je 'en' of een andere taal zetten
+  },
 });
 </script>
 
