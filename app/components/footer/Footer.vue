@@ -7,3 +7,19 @@
   </footer>
 </template>
 
+<style>
+  footer {
+    background-color: var(--primary-blue);
+    color: var(--text-white);
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+    border-radius: 1em 1em 0 0;
+    padding: 3em 0;
+  }
+
+  a {
+      color: var(--text-white);
+  }
+</style>
