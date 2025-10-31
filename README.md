@@ -1,7 +1,7 @@
 ## Experiment Vue/Nuxt
 
-Dit project is een experiment met **Vue 3** en **Nuxt 3** en haalt data op uit een **Directus API**.  
-Het doel is om een moderne frontend te bouwen die content dynamisch kan weergeven en te onderzoeken hoe de **user**, **developer** en **content management experience** (UX, DX & CMX) is binnen deze techstack.
+Dit project is een experiment met Vue en Nuxt en haalt data op uit een Directus API.  
+Het doel is om een pagina te ontwikkelen die content dynamisch kan weergeven en te onderzoeken hoe de user, developer en content management experience is van deze techstack.
 
 ### User Experience
 - UX van deze stack is over het algemeen goed op zowel desktop als mobiele apparaten  
