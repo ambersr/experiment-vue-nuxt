@@ -1,4 +1,10 @@
 <script setup>
+import { useHead } from '#app'
+
+useHead({
+  title: 'Document | Experiment Vue/Nuxt',
+});
+
 // Haal de slug uit de route
 const route = useRoute();
 const slug = route.params.slug;

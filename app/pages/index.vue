@@ -1,6 +1,11 @@
 <script setup>
 // Import component
 import DocumentCard from '@/components/documents/DocumentCard.vue'
+import { useHead } from '#app'
+
+useHead({
+  title: 'Home | Experiment Vue/Nuxt',
+});
 
 // API URL
 const baseUrl = "https://fdnd-agency.directus.app/items/";
@@ -18,7 +23,7 @@ const { data: documents } = await useAsyncData('documents', async () => {
 
 <template>
   <main>
-    <h1>Welkom op de homepage 🎉</h1>
+    <h1>Overzicht documenten</h1>
 
     <div class="cards">
       <DocumentCard
