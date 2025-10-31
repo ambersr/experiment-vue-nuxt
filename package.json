@@ -1,5 +1,5 @@
 {
-  "name": "experiment",
+  "name": "experiment-vue-nuxt",
   "type": "module",
   "private": true,
   "scripts": {
