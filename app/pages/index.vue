@@ -29,3 +29,36 @@ const { data: documents } = await useAsyncData('documents', async () => {
     </div>
  </main>
 </template>
+
+<style>
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5em;
+        padding: 3em 0;
+        width: 90%;
+        max-width: 1400px;
+        margin: auto;
+
+        @media (min-width: 768px) {
+            padding: 4em 0;
+        }
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 1em;
+        padding: 0;
+        margin: auto;
+        width: 100%;
+
+        @media (min-width: 768px) {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(22em, 1fr));
+        }
+    }
+</style>

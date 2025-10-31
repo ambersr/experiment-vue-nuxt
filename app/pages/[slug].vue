@@ -23,3 +23,7 @@ const { data: document } = await useAsyncData(`document-${slug}`, async () => {
     <p>{{ document.description }}</p>
   </main>
 </template>
+
+<style>
+
+</style>
