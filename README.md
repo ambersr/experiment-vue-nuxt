@@ -26,6 +26,6 @@ Uitgewerkt in [Gist](https://gist.github.com/ambersr/6df731666f8af9e591f45b2571e
 
 Uitgewerkt in [Gist](https://gist.github.com/ambersr/63cefe45dd05a1468ce652b3402c1d7b)
 
-## Algemene conclusie
+## Conclusie gebruik techstack
 
 Vue met Nuxt en Directus is geschikt voor websites die dynamisch en interactief moeten zijn. Developers hebben een overzichtelijke structuur en herbruikbare componenten, terwijl contentbeheerders makkelijk content kunnen beheren via Directus zonder enige frontend kennis. Deze stack werkt goed voor projecten met interactieve functies en dynamische data maar is minder handig als je vooral een volledig statische en snelle website wilt.
